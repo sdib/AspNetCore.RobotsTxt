@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sdib.AspNetCore.RobotsTxt.Abstractions\Sdib.AspNetCore.RobotsTxt.Abstractions.csproj" />
+    <ProjectReference Include="..\Sdib.AspNetCore.RobotsTxt\Sdib.AspNetCore.RobotsTxt.csproj" />
+  </ItemGroup>
+
+</Project>
